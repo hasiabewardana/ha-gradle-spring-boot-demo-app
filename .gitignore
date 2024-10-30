@@ -1,24 +1,117 @@
-# Compiled class file
+# Java
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Logs
+*.log
+logs/
+*.pid
+*.gz
+
+# Generated files
+*.iml
+*.ipr
+*.iws
+*.class
+*.project
+*.classpath
+*.factorypath
+
+# IDEA files
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/shelf/
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/artifacts/
+.idea/modules/
+.idea/*.iml
+.idea/modules.xml
+*.iml
+*.hprof
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+
+# Gradle caches
+.gradle/
+build/
+out/
+gradle-app.setting
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot specific
+target/
+bin/
+*.gz
+*.env
+*.tmp
+*temp/
+*.swp
+
+# Maven/Gradle Wrapper binaries
+**/.mvn/wrapper/maven-wrapper.jar
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# MacOS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Editor specific files
+.idea/
+.vscode/
+.editorconfig
+
+# Intellij Project Files
+.idea/**/*
+*.iws
+.idea/misc.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/dataSources.local.xml
+.idea/dataSources.schema.xml
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Lombok generated files
+.lombok/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Other files
+*.env
+*.swp
+
+# Test report files
+test-results/
+jacoco/test.exec
+jacoco/test-coverage.exec
+
+# Temporary directories and generated content
+out/
+temp/
+*.tmp
